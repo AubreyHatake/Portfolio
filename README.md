@@ -29,6 +29,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 I was able to work on this assignment independently, meaning I coded everything from scratch! 
 
 ## My page 
+![Screenshot1](images/Screenshot%202023-06-07%20141823.png)
+
+![Screenshot2](images/Screenshot%202023-06-07%20142027.png)
 
 
 In this page you will be able to access my contact information, resume, information about myself, and websites I've delpoyed. 
