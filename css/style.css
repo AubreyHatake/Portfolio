@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#back1 {
+  background-color: rgba(21, 6, 46, 0.781);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+
+}
+
+.background {
+  margin-top: 300px;
+  height: 120%;
+  width: 10%;
+  border-style: groove;
+  border-radius: 35%;
+  border-color: #e3eef6;
+
+
+}
+
+.nameCard {
+display: left;
+top: 180px;
+position: absolute;
+font-family: 'Script MT';
+font-size: 70px;
+color: rgb(255, 246, 255);
+}
+
+  #navbar {
+    background-color:  rgba(15, 17, 26, 0.555); /* background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    display: block;
+    font-size: 30px;
+    font-family: Georgia;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: #e3eef6;
+    color: black;
+  }
+
+  #timer {
+    position: absolute;
+    top: 500px;
+    font-family: 'impact';
+    font-size: 40px;
+    color:rgba(226, 241, 224, 0.818);
+  }
+
+  .text {
+    position: absolute;
+    top: 550px;
+    font-family: 'impact';
+    font-size: 40px;
+    color:rgba(151, 166, 149, 0.818);
+  
+  }
+
+
+ .welcome {
+  position: absolute;
+  top: 380px;
+  font-family: 'impact';
+  font-size: 40px;
+  color:rgb(190, 125, 150);
+ }
+
+ #blossoms {
+  flex: 2 0;
+  height: 800px;
+  width: 100%;
+  position: bottom;
+  background-size: cover; /* or contain */
+  background-position: center; /* center the image on the page */
+  background-repeat: no-repeat; /* ensure the image is only shown once */
+  z-index: 1;
+ }
+
+.float {
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  font-size: 24px;
+  font-family: 'Arial';
+  color:rgb(255, 246, 255);
+}
+
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    
+  }
+
+  .container1 {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  li {
+    display: inline;
+    margin: 10px;
+    padding-bottom: 34px;
+
+
+  }
+
+  
+  .img2 {
+    flex: 1 0;
+    display: block; 
+    margin-top: 650px;
+    margin-left: px;
+     margin-left: auto;
+    margin-right: auto; 
+    height: 280px;
+    width: 180px;
+    border-style: solid;
+    border-color: #e3eef6;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: 1;
+  } 
+  
+   img:hover {
+    opacity: 100%;
+  }
+  
+  .heads {
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia;
+    color:rgb(255, 246, 255);
+    
+  }
+  .button {
+    position: relative;
+    display: block;
+    padding: 147px 140px;
+    padding-top: 80px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 6px;
+    border-color: rgba(178, 125, 190, 0.818);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-image: url("assets/css/Screenshot 2023-02-19 182413.png");
+    border-radius: 6px;
+    
+  }
+  
+  
+  
+  li {
+    flex: 1;
+    margin: 0px;
+    padding-top: 5px;
+    text-align: center;
+  }
+  
+  .pink {
+      height: 200px;
+      width: 180px;
+      background-size: contain; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      z-index: 1;
+    }
+
+  a {
+    font-family: 'Lucida Sans';
+  }
+  
+  /* .resume {
+    padding-top: 60px;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    
+  }
+  
+  .nationalparks {
+  position: relative;
+    display: block;
+    padding: 147px 140px;
+    padding-top: 80px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 6px;
+    border-color: rgba(178, 125, 190, 0.818);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-image: url("Screenshot 2023-04-11 141244.png");
+    border-radius: 6px;
+}
+ */
+
+ #Projects {
+  margin: 10px;
+  padding: 12px;
+
+ }
+
+ .musicBoxbtn {
+  background-color: rgb(50, 94, 48);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+ }
+
+ .musicBoxpic {
+  height: 30%;
+  width: 40%;
+  display: inline-block;
+ }
