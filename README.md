@@ -29,9 +29,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 I was able to work on this assignment independently, meaning I coded everything from scratch! 
 
 ## My page 
-This is a screenshot of my page: ![mypage](assets/css/Screenshotty.jpg)
+
 
 In this page you will be able to access my contact information, resume, information about myself, and websites I've delpoyed. 
 
-https://aubreyhatake.github.io/Professional-Portfolio/
+https://aubreyhatake.github.io/Portfolio/
 
