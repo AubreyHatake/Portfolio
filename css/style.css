@@ -124,10 +124,11 @@ color: rgb(255, 246, 255);
     margin: 50px;
   }
 
-  /* .container2 {
-    /* display: flex;
-   column-gap: 0px; */
-    
+  .container2 {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+   }
  
 
   li {
@@ -258,10 +259,12 @@ color: rgb(255, 246, 255);
  }
 
 .projectDiv1 {
+  flex: 1 0; 
   display: inline-block;
   
 }
 
 .projectDiv2 {
+  flex: 1 0;
   display: inline-block;
 }
