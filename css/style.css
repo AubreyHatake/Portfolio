@@ -81,16 +81,7 @@ color: rgb(255, 246, 255);
   color:rgb(190, 125, 150);
  }
 
- #blossoms {
-  flex: 2 0;
-  height: 800px;
-  width: 100%;
-  position: bottom;
-  background-size: cover; /* or contain */
-  background-position: center; /* center the image on the page */
-  background-repeat: no-repeat; /* ensure the image is only shown once */
-  z-index: 1;
- }
+
 
 .float {
   text-align: center;
@@ -99,6 +90,25 @@ color: rgb(255, 246, 255);
   font-size: 24px;
   font-family: 'Arial';
   color:rgb(255, 246, 255);
+}
+
+.float2 {
+  display: block;
+  padding: 15px;
+  margin-right: 800px;
+  font-size: 24px;
+  font-family: 'Arial';
+  color:rgb(255, 246, 255);
+}
+
+.float3 {
+  display: inline-block;
+  padding: 15px;
+  margin-left: 700px;
+  font-size: 24px;
+  font-family: 'Arial';
+  color:rgb(255, 246, 255);
+  vertical-align: middle;
 }
 
   ul {
@@ -110,16 +120,20 @@ color: rgb(255, 246, 255);
   }
 
   .container1 {
-    padding: 5px;
-    margin: 5px;
+    padding: 15px;
+    margin: 50px;
+  }
+
+  .container2 {
+    margin: 2px;
+    padding: 3px 3px;
+    text-align: center;
   }
 
   li {
     display: inline;
     margin: 10px;
     padding-bottom: 34px;
-
-
   }
 
   
@@ -193,30 +207,7 @@ color: rgb(255, 246, 255);
     font-family: 'Lucida Sans';
   }
   
-  /* .resume {
-    padding-top: 60px;
-    justify-content: center;
-    position: relative;
-    z-index: 2;
-    
-  }
   
-  .nationalparks {
-  position: relative;
-    display: block;
-    padding: 147px 140px;
-    padding-top: 80px;
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 6px;
-    border-color: rgba(178, 125, 190, 0.818);
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    background-image: url("Screenshot 2023-04-11 141244.png");
-    border-radius: 6px;
-}
- */
 
  #Projects {
   margin: 10px;
@@ -225,18 +216,43 @@ color: rgb(255, 246, 255);
  }
 
  .musicBoxbtn {
+  display: block;
+  padding: 5px;
   background-color: rgb(50, 94, 48);
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: block;
   font-size: 16px;
  }
 
  .musicBoxpic {
+  display: block;
+  padding: 3px;
+  height: 30%;
+  width: 40%;
+ }
+
+ .nationalP {
+  margin-left: 695px;
+  padding: 15px;
   height: 30%;
   width: 40%;
   display: inline-block;
+  vertical-align: middle;
+ }
+
+ .nationalPbtn {
+  margin-left: 695px;
+  padding: 15px;
+  background-color: rgb(50, 94, 48);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   vertical-align: middle;
  }
