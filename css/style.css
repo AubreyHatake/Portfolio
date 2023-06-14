@@ -92,6 +92,13 @@ color: rgb(255, 246, 255);
   color:rgb(255, 246, 255);
 }
 
+.float1 {
+  display: block;
+  font-size: 24px;
+  font-family: 'Arial';
+  color:rgb(255, 246, 255);
+}
+
 .float2 {
   display: block;
   padding: 15px;
@@ -104,7 +111,7 @@ color: rgb(255, 246, 255);
 .float3 {
   display: inline-block;
   padding: 15px;
-  margin-left: 700px;
+  /* margin-left: 700px; */
   font-size: 24px;
   font-family: 'Arial';
   color:rgb(255, 246, 255);
@@ -162,6 +169,8 @@ color: rgb(255, 246, 255);
   
   .heads {
     flex: 1;
+    /* margin: 10%; */
+    padding: 5%;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -210,11 +219,7 @@ color: rgb(255, 246, 255);
   
   
 
- #Projects {
-  margin: 10px;
-  padding: 12px;
 
- }
 
  .musicBoxbtn {
   display: block;
@@ -236,7 +241,7 @@ color: rgb(255, 246, 255);
  }
 
  .nationalP {
-  margin-left: 695px;
+  /* margin-left: 695px; */
   /* padding: 15px; */
   height: 30%;
   width: 40%;
@@ -245,7 +250,6 @@ color: rgb(255, 246, 255);
  }
 
  .nationalPbtn {
-  margin-left: 695px;
   padding: 15px;
   background-color: rgb(50, 94, 48);
   border: none;
@@ -253,18 +257,27 @@ color: rgb(255, 246, 255);
   /* padding: 15px 32px; */
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
-   vertical-align: middle;
+ 
  }
 
-.projectDiv1 {
-  flex: 1 0; 
-  display: inline-block;
-  
+
+
+.noteT {
+  padding: 3px;
+  height: 30%;
+  width: 40%;
 }
 
-.projectDiv2 {
-  flex: 1 0;
-  display: inline-block;
+.noteTbtn {
+  padding: 15px;
+  background-color: rgb(50, 94, 48);
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
 }
