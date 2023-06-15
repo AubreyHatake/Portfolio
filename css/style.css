@@ -109,13 +109,12 @@ color: rgb(255, 246, 255);
 }
 
 .float3 {
-  display: inline-block;
+  display: block;
   padding: 15px;
   /* margin-left: 700px; */
   font-size: 24px;
   font-family: 'Arial';
   color:rgb(255, 246, 255);
-  vertical-align: middle;
 }
 
   ul {
@@ -125,6 +124,8 @@ color: rgb(255, 246, 255);
     display: flex;
     
   }
+
+ 
 
   .container1 {
     padding: 15px;
@@ -147,11 +148,10 @@ color: rgb(255, 246, 255);
   
   .img2 {
     flex: 1 0;
-    display: block; 
+    display: block;
     margin-top: 650px;
-    margin-left: px;
-     margin-left: auto;
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;  
     height: 280px;
     width: 180px;
     border-style: solid;
@@ -221,7 +221,9 @@ color: rgb(255, 246, 255);
 
 
 
- .musicBoxbtn {
+ .Projectbtn {
+  flex: 1 0; 
+  margin-left: 440px;
   display: block;
   padding: 5px;
   background-color: rgb(50, 94, 48);
@@ -233,51 +235,12 @@ color: rgb(255, 246, 255);
   font-size: 16px;
  }
 
- .musicBoxpic {
-  display: block;
-  padding: 3px;
-  height: 30%;
-  width: 40%;
- }
-
- .nationalP {
-  /* margin-left: 695px; */
-  /* padding: 15px; */
-  height: 30%;
-  width: 40%;
+ .Projectpic {
+  flex: 1 0; 
+  margin-left: 323px;
   display: inline-block;
-  vertical-align: middle;
- }
-
- .nationalPbtn {
   padding: 15px;
-  background-color: rgb(50, 94, 48);
-  border: none;
-  color: white;
-  /* padding: 15px 32px; */
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 16px;
- 
- }
-
-
-
-.noteT {
-  padding: 3px;
   height: 30%;
   width: 40%;
-}
+ }
 
-.noteTbtn {
-  padding: 15px;
-  background-color: rgb(50, 94, 48);
-  border: none;
-  color: white;
-  /* padding: 15px 32px; */
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 16px;
-}
