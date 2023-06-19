@@ -94,9 +94,11 @@ color: #d9b8c4;
 
 .float1 {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 24px;
   font-family: 'Arial';
-  color:rgb(255, 246, 255);
+  color:#d9b8c4;
 }
 
 .float2 {
@@ -110,6 +112,9 @@ color: #d9b8c4;
 
 .float3 {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 5px;
   padding: 15px;
   /* margin-left: 700px; */
   font-size: 24px;
@@ -161,6 +166,7 @@ color: #d9b8c4;
     background-position: center; 
     background-repeat: no-repeat; 
     z-index: 1;
+    box-shadow: 0 0 50px 15px #e8c1c5;
   } 
   
    img:hover {
@@ -222,9 +228,12 @@ color: #d9b8c4;
 
 
  .Projectbtn {
-  flex: 1 0; 
+  /* flex: 1 0; 
   margin-left: 440px;
+  display: block; */
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5px;
   background-color: #957186;
   border: none;
@@ -236,10 +245,13 @@ color: #d9b8c4;
  }
 
  .Projectpic {
-  flex: 1 0; 
-  margin-left: 323px;
-  display: inline-block;
-  padding: 15px;
+  /* flex: 1 0;  */
+  /* margin-left: 323px;
+  display: inline-block; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
   height: 30%;
   width: 40%;
  }
@@ -260,16 +272,17 @@ color: #d9b8c4;
   margin-left: 15%; 
   background-color: #957186;
   color: #e3eef6;
-  /* background: white;
-  color: #48abe0; */
+  border-color: #957186;
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: 0 0 50px 15px #e8c1c5;
+  font-size: 17px;
+  font-family: 'Arial';
+  /* box-shadow: 0 0 50px 15px #e8c1c5; */
  }
 
  .parent {
-  padding: 10rem;
+  padding: 5px;
   display: flex;
   flex-direction: row;
   align-items: left;
@@ -277,3 +290,30 @@ color: #d9b8c4;
   color: white;
   text-align: center;
  }
+
+.emailB {
+  display: block;
+  border-style: solid;
+  border-color: #957186;
+  border-radius: 5px;
+  font-size: 24px;
+  font-family: 'Arial';
+  color: #d9b8c4;
+}
+
+button:hover {
+  box-shadow: 0 0 50px 15px #e8c1c5;
+}
+
+a:hover {
+  box-shadow: 0 0 50px 15px #e8c1c5;
+}
+
+.resumePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 55%;
+  width: 45%;
+
+}
