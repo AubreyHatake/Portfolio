@@ -1,3 +1,7 @@
+var i = 0;
+var txt = 'Hello, my name is Aubrey Lamb';
+var speed = 50;
+
 // In the code below I am able to keep the nav bar on the top of the page when the user is scrolling
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -40,3 +44,14 @@ var x = setInterval(function() {
     document.getElementById("timer").innerHTML = "Graduated!";
   }
 }, 1000);
+
+//
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("hello").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+typeWriter();
