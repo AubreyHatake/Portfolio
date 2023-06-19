@@ -1,6 +1,3 @@
-# Professional-Portfolio
-This site contains my resume and work experience to help future employers to better get to know me. 
-A lot of this site does not include much work, this is due to not having much work to display, yet! 
 
 ## User Story 
 
@@ -29,9 +26,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 I was able to work on this assignment independently, meaning I coded everything from scratch! 
 
 ## My page 
-![Screenshot1](images/Screenshot%202023-06-07%20141823.png)
+![screenshot](<images/Screenshot 2023-06-19 161618.png>)
 
-![Screenshot2](images/Screenshot%202023-06-07%20142027.png)
+![screenshot2](<images/Screenshot 2023-06-19 161718.png>)
 
 
 In this page you will be able to access my contact information, resume, information about myself, and websites I've delpoyed. 
